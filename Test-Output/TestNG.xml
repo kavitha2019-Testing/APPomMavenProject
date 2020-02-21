@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Ecommerce" parallel="classes" thread-count="2" verbose="5" >
+<!--<suite name="Ecommerce" parallel="classes" thread-count="2" verbose="5" > -->
+<suite name="Ecommerce" verbose = "5">
     <listeners>
         <listener class-name = "com.utilities.listeners"/>
     </listeners>
