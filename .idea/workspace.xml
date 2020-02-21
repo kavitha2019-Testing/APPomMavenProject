@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8348b727-2b01-489b-b698-28d39da88603" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XXgJyTp12N77AkUsbSdUorvECr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Test-Output" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kavitha\IdeaProjects\APPomMavenProject\Test-Output" />
+      <recent name="C:\Users\kavitha\IdeaProjects\APPomMavenProject\Drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Testcase_002">
+    <configuration name="C:/Users/kavitha/IdeaProjects/APPomMavenProject/Test-Output/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APPomMavenProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Test-Output/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testcase_001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APPomMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.Testcases.Testcase_001" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testcase_001.scrolldownpage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APPomMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.Testcases.Testcase_001" />
+      <option name="METHOD_NAME" value="scrolldownpage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testcase_002" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APPomMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.Testcases.Testcase_002" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testcase_003" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APPomMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.Testcases.Testcase_003" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Testcase_002" />
+        <item itemvalue="TestNG.C:/Users/kavitha/IdeaProjects/APPomMavenProject/Test-Output/TestNG.xml" />
+        <item itemvalue="TestNG.Testcase_001.scrolldownpage" />
+        <item itemvalue="TestNG.Testcase_001" />
+        <item itemvalue="TestNG.Testcase_003" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8348b727-2b01-489b-b698-28d39da88603" name="Default Changelist" comment="" />
+      <created>1581197784956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581197784956</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="340" y="32" key="#C:/Users/kavitha/IdeaProjects/APPomMavenProject/Test-Output/TestNG.xml" timestamp="1581570898939">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="340" y="32" key="#C:/Users/kavitha/IdeaProjects/APPomMavenProject/Test-Output/TestNG.xml/0.0.1366.728@0.0.1366.728" timestamp="1581570898939" />
+    <state x="420" y="123" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1581407653858">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="420" y="123" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581407653858" />
+    <state x="144" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581571264882">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="144" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581571264882" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581674195182">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1581674195182" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1581657736723">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581657736723" />
+    <state x="388" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581570890821">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="388" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1581570890821" />
+    <state x="339" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581595438506">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1581595438506" />
+    <state x="404" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581345798279">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581345798279" />
+    <state x="439" y="123" key="FileChooserDialogImpl" timestamp="1581713135891">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="439" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581713135891" />
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1581677624778">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581677624778" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1581677624778">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581677624778" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1581677624778">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581677624778" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1581677624778">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581677624778" />
+    <state width="1313" height="212" key="GridCell.Tab.1.bottom" timestamp="1581401737880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581401737880" />
+    <state width="1313" height="212" key="GridCell.Tab.1.center" timestamp="1581401737880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581401737880" />
+    <state width="1313" height="212" key="GridCell.Tab.1.left" timestamp="1581401737879">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581401737879" />
+    <state width="1313" height="212" key="GridCell.Tab.1.right" timestamp="1581401737880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581401737880" />
+    <state x="220" y="23" key="Maven.ArtifactSearchDialog" timestamp="1581198856985">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="220" y="23" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1581198856985" />
+    <state x="162" y="10" key="SettingsEditor" timestamp="1581805035436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="162" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581805035436" />
+    <state x="397" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1581860458013">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="397" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581860458013" />
+    <state x="41" y="0" key="new project wizard" timestamp="1581690218883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="41" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581690218883" />
+    <state x="325" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581508895425">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="325" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581508895425" />
+  </component>
+</project>

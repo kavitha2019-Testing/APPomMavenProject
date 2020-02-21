@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Ecommerce]" parallel="classes">
+  <listeners>
+    <listener class-name="com.utilities.listeners"/>
+  </listeners>
+  <test thread-count="3" verbose="5" name="APPomMavenProject(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Testcases.Testcase_002">
+        <methods>
+          <include name="Signinbutton"/>
+          <include name="BrowserSetUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Testcases.Testcase_002 -->
+      <class name="com.Testcases.Testcase_003">
+        <methods>
+          <include name="selectTshirt"/>
+          <include name="beforeclass"/>
+          <include name="Afterclass"/>
+          <include name="teardown"/>
+          <include name="beforeuite"/>
+          <include name="aftertest"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+          <include name="BrowserSetUp"/>
+        </methods>
+      </class> <!-- com.Testcases.Testcase_003 -->
+    </classes>
+  </test> <!-- APPomMavenProject(failed) -->
+</suite> <!-- Failed suite [Ecommerce] -->
