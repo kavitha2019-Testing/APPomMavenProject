@@ -26,17 +26,53 @@
             <target>1.6</target>
         </configuration>
     </plugin>
-    <plugin>
+     <!-- This plugins used to generate TestNG results in jenkins -->          
+             <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.12.4</version>
+    <configuration>
+        <environmentVariables>
+            <outputDirectory>${project.build.directory}</outputDirectory>
+        </environmentVariables>
+    </configuration>
+    <executions>
+        <execution>
+            <id>default-test</id>
+            <configuration>
+                <forkMode>once</forkMode>
+                <suiteXmlFiles>
+                    <suiteXmlFile>${basedir}/src/test/testngSuite1.xml</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
+        </execution>
+        <execution>
+            <id>special-test</id>
+            <phase>test</phase>
+            <goals>
+                <goal>test</goal>
+            </goals>
+            <configuration>
+                <forkMode>always</forkMode>
+                <suiteXmlFiles>
+                    <suiteXmlFile>${basedir}/src/test/testngSuite2.xml</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
+        </execution>
+    </executions>
+   <plugin>                   
+   <!--  --------------------------------------------------- -->                   
+ <!--   <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
     <version>2.18.1</version>
     <configuration>
-        <suiteXmlFiles>
+        <suiteXmlFiles> -->
             <!-- TestNG suite XML files -->
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+         <!--   <suiteXmlFile>testng.xml</suiteXmlFile>
         </suiteXmlFiles>
     </configuration>
-    </plugin>
+    </plugin>  -->
 
     </plugins>
     </build>
