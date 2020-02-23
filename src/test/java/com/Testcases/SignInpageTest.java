@@ -44,8 +44,8 @@ public class SignInpageTest extends OpenBrowser {
        JavascriptExecutor js = (JavascriptExecutor)driver;
       js.executeScript("arguments[0].click;",lgnbutton);
         Thread.sleep(5000);
-        String  spemail= SP1.setemail(prop.getProperty("Email"));
-        lgnbutton.sendKeys(spemail);
+   //     String  spemail= SP1.setemail(prop.getProperty("Email"));
+        lgnbutton.sendKeys("kavitha_abburi@yahoo.com);
         Thread.sleep(5000);
         System.out.println("Email  entered successfully");
         driver.findElement(By.xpath("//i[@class='icon-user left']")).click();
