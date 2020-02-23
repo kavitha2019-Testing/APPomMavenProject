@@ -57,8 +57,7 @@ public class Testcase_002 extends OpenBrowser {
        js.executeScript("arguments[0].click;",lgnbutton);
         System.out.println(" Email button clicked");
         //lgnbutton.sendKeys(CV.email());
-       lgnbutton.sendKeys(SP.setemail(configemail));
-       log.error("This is error");
+       lgnbutton.sendKeys("kavitha_abburi@yahoo.com");
         System.out.println("Email  entered successfully");
         Thread.sleep(5000);
         driver.findElement(By.xpath("//i[@class='icon-user left']")).click();
