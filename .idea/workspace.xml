@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8348b727-2b01-489b-b698-28d39da88603" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test-Output/Ecommerce/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Test-Output/Ecommerce/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test-Output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test-Output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test-Output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Test-Output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Testcases/Testcase_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Testcases/Testcase_002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test-Output/Ecommerce/APPomMavenProject.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test-Output/Ecommerce/APPomMavenProject.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +62,7 @@
         <listener class="org.testng.reporters.EmailableReporter" />
         <listener class="org.testng.reporters.FailedReporter" />
         <listener class="org.testng.reporters.TestHTMLReporter" />
+        <listener class="org.testng.reporters.XMLReporter" />
       </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,10 +176,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="420" y="123" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581407653858" />
-    <state x="144" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582305292894">
+    <state x="144" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582327534491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="144" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582305292894" />
+    <state x="144" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582327534491" />
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581674195182">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -190,10 +188,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581657736723" />
-    <state x="388" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582305278433">
+    <state x="388" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582327526660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="388" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582305278433" />
+    <state x="388" y="154" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582327526660" />
     <state x="339" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581595438506">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -206,22 +204,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="439" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581713135891" />
-    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1582307316400">
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1582332883086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582307316400" />
-    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1582307316399">
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582332883086" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1582332883086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582307316399" />
-    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1582307316399">
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582332883086" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1582332883085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582307316399" />
-    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1582307316400">
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582332883085" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1582332883086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582307316400" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582332883086" />
     <state width="1313" height="212" key="GridCell.Tab.1.bottom" timestamp="1581401737880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -246,10 +244,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="162" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581805035436" />
-    <state x="397" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1581860458013">
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1582327422287">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="397" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581860458013" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1366.728@0.0.1366.728" timestamp="1582327422287" />
+    <state x="397" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1582399828570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="397" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582399828570" />
     <state x="41" y="0" key="new project wizard" timestamp="1581690218883">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
