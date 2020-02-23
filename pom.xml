@@ -27,7 +27,7 @@
         </configuration>
     </plugin>
      <!-- This plugins used to generate TestNG results in jenkins -->          
-             <plugin>
+      <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
     <version>2.18.1</version>
@@ -60,7 +60,9 @@
             </configuration>
         </execution>
     </executions>
-   </plugin>                   
+</plugin>       
+                
+                  
    <!--  This is end of TestNg results plugin in jenkins -->
              
   <!--  <groupId>org.apache.maven.plugins</groupId>
