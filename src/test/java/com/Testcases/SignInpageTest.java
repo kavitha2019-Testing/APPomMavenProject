@@ -27,6 +27,13 @@ public class SignInpageTest extends OpenBrowser {
         //SetBrowser();
         System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
+        options.setPageLoadStrategy(PageLoadStrategy.NONE);
+            options.addArguments("enable-automation");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-infobars");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--disable-browser-side-navigation");
+            options.addArguments("--disable-gpu");
         driver = new ChromeDriver(options);
         driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
         driver.manage().window().maximize();
