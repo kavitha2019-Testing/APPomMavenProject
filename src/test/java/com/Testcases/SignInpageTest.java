@@ -22,9 +22,7 @@ public class SignInpageTest extends OpenBrowser {
 
     public SignInpageTest() throws FileNotFoundException {
     }
-
-
-    @BeforeMethod
+  @BeforeMethod
     public void BrowserSetUp1() throws IOException {
         //SetBrowser();
         System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
@@ -45,7 +43,7 @@ public class SignInpageTest extends OpenBrowser {
       js.executeScript("arguments[0].click;",lgnbutton);
         Thread.sleep(5000);
    //     String  spemail= SP1.setemail(prop.getProperty("Email"));
-        lgnbutton.sendKeys("kavitha_abburi@yahoo.com);
+        lgnbutton.sendKeys("kavitha_abburi@yahoo.com");
         Thread.sleep(5000);
         System.out.println("Email  entered successfully");
         driver.findElement(By.xpath("//i[@class='icon-user left']")).click();
