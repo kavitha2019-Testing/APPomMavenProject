@@ -1,0 +1,9 @@
+package com.Base;
+
+public class SetupBrowser2 {
+
+   public void set1(){
+       System.out.println("print set1");
+
+   }
+}
